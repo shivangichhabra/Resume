@@ -1,0 +1,140 @@
+*{
+    font-family: "Trebuchet MS","Times New Roman",sans-serif,serif;;
+}
+div {
+    border-radius: 5px;
+}
+h1{
+    border:3px solid #003366;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    text-align:center;
+    margin-top: -3px;
+    border-radius: 5px;
+}
+#header {
+    z-index: 1;
+    width: 84%;
+    margin-top: 10px;
+    height: 80px;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+    position:fixed;
+    margin-left:100px;
+    color: #003366;
+}
+
+#left {
+    float: left;
+    margin-top: 100px;
+    width: 22%;
+    height: 800px;
+    background-color: #003366;
+    margin-bottom: 10px;
+    position: relative;
+    color:#ffffff;
+    margin-left:100px;
+    border:3px solid #E6E6E6;
+}
+#left li {
+    list-style-type:none;
+    margin-left:-40px;
+}
+#right {
+    float: right;
+    margin-top: 100px;
+    width: 59%;
+    height: 2360px;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+    position: relative;
+    color: #003366;
+    margin-right:100px;
+}
+img{
+    height:200px;
+    width:200px;
+}
+
+#right p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
+
+}
+#right li {
+    list-style-type:none;
+    margin-left:-40px;
+}
+td img{
+    height:20px;
+    width:20px;
+}
+
+td{
+    padding:4px;
+}
+#right h4{
+    background-color: #003366;
+    color: #E6E6E6;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    background: linear-gradient(#003366, #002535);
+    box-shadow:
+    0 5px 15px 1px rgba(0, 0, 0, 0.4),
+    0 0 200px 1px rgba(255, 255, 255, 0.6);
+}
+#left h4{
+    background-color: #E6E6E6;
+    color: #003366;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+    background: linear-gradient(#E6E6E6, rgba(114, 110, 113, 0.69));
+    box-shadow:
+    0 5px 15px 1px rgba(0, 0, 0, 0.4),
+    0 0 200px 1px rgba(255, 255, 255, 0.6);
+}
+
+#right h4:visited{
+    text-shadow: 0 0 1px rgba(0, 51, 102, 0.27);
+    background: #E6E6E6;
+    border-left: 8px solid #003366;
+    color:#003366;
+    font-weight: bold;
+}
+#right div li{
+    list-style-type:square;
+    margin-left:10px;
+}
+#right div{
+    margin-left:20px;
+}
+#hobbies img{
+    height:100px;
+    width:100px;
+}
+#hobbies table{
+    padding:50px;
+    border-spacing: 5px;
+}
+#projects p{
+    margin-left:-40px;
+    margin-top: 10px;
+}
+#projects li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#footer {
+    z-index: 1;
+    width: 83%;
+    margin-top: 3000px;
+    height: 80px;
+    background-color: #E6E6E6;
+    margin-bottom: 10px;
+    position:fixed;
+    margin-left:100px;
+    color: #003366;
+}
